@@ -2,53 +2,81 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Ẩm Thực Đồng Nai</title>
+    <title>Du Lịch Đồng Nai</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
+
     <nav class="navbar">
         <a href="index.html" class="logo">Đồng Nai <span>Travel</span></a>
-        <ul class="nav-links">
+    <ul class="nav-links">
             <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="dulich.html">Du lịch</a></li>
-            <li><a href="amthuc.html" class="active">Ẩm thực</a></li>
+            <li><a class="active">Du lịch</a></li>
+            <li><a href="amthuc.html">Ẩm thực</a></li>
             <li><a href="vanhoa.html">Văn hóa</a></li>
             <li><a href="about.html">Tác giả</a></li>
-        </ul>
-    </nav>
+    </ul>
+</nav>
+<header class="section" style="padding-bottom:40px;">
+    <div class="container">
+        <h1 style="text-align:center; font-size:32px; margin-bottom:10px;">
+            Ẩm Thực Đồng Nai
+        </h1>
+        <p style="text-align:center; max-width:700px; margin:auto; opacity:0.8;">
+            Khám phá những món ăn đặc sản nổi bật của Đồng Nai,
+            mang đậm hương vị miền Đông Nam Bộ.
+        </p>
+    </div>
+</header>
 
-    <header class="page-header">
-    <h1>Món Ngon Đồng Nai</h1>
-    <p>Khám phá những món ăn đặc sản nổi tiếng của tỉnh Đồng Nai</p>
-    </header>
+<!-- QUICK VIEW -->
+<section class="section" style="padding-top:0; padding-bottom:40px;">
+    <div class="container">
 
-    <main class="container">
-<!-- XEM NHANH ẨM THỰC -->
-<details class="quick-view">
-    <summary>Xem nhanh</summary>
-    <ol>
-        <li><a href="#buoitantrieu">Bưởi Tân Triều</a></li>
-        <li><a href="#gaxoai">Gà hấp bưởi</a></li>
-        <li><a href="#goisang">Gỏi cá sông La Ngà</a></li>
-        <li><a href="#lacanh">Lẩu lá khổ qua rừng</a></li>
-        <li><a href="#nemxuong">Nem nướng Long Khánh</a></li>
-        <li><a href="#banhxeo">Bánh xèo rau rừng</a></li>
-        <li><a href="#chaca">Chả cá La Ngà</a></li>
-        <li><a href="#canhchua">Canh chua cá lăng</a></li>
-        <li><a href="#mitto">Mít tố Tân Phú</a></li>
-        <li><a href="#comruou">Cơm rượu Tân Triều</a></li>
-        <li><a href="#trau">Thịt trâu rừng nướng</a></li>
-        <li><a href="#banhtrang">Bánh tráng nướng Biên Hòa</a></li>
-        <li><a href="#banhbeo">Bánh bèo bì</a></li>
-        <li><a href="#goiga">Gỏi gà măng cụt</a></li>
-        <li><a href="#ruoucan">Rượu cần Đồng Nai</a></li>
-    </ol>
-</details>
+        <details class="quick-view">
+            <summary style="font-weight:600; cursor:pointer;">
+                📌 Xem nhanh danh sách món ăn
+            </summary>
+
+            <ol style="margin-top:15px; line-height:1.9;">
+                <li><a href="#buoitantrieu">Bưởi Tân Triều</a></li>
+                <li><a href="#gaxoai">Gà hấp bưởi</a></li>
+                <li><a href="#goisang">Gỏi cá sông La Ngà</a></li>
+                <li><a href="#lacanh">Lẩu lá khổ qua rừng</a></li>
+                <li><a href="#nemxuong">Nem nướng Long Khánh</a></li>
+                <li><a href="#banhxeo">Bánh xèo rau rừng</a></li>
+                <li><a href="#chaca">Chả cá La Ngà</a></li>
+                <li><a href="#canhchua">Canh chua cá lăng</a></li>
+                <li><a href="#mitto">Mít tố Tân Phú</a></li>
+                <li><a href="#comruou">Cơm rượu Tân Triều</a></li>
+                <li><a href="#trau">Thịt trâu rừng nướng</a></li>
+                <li><a href="#banhtrang">Bánh tráng nướng Biên Hòa</a></li>
+                <li><a href="#banhbeo">Bánh bèo bì</a></li>
+                <li><a href="#goiga">Gỏi gà măng cụt</a></li>
+                <li><a href="#ruoucan">Rượu cần Đồng Nai</a></li>
+            </ol>
+        </details>
+
+    </div>
+</section>
+
+<!-- FOOD LIST -->
+<section class="section" style="padding-top:0;">
+    <div class="container">
+
+        <div style="display:flex; flex-direction:column; gap:30px;">
+
+            <!-- CARD START -->
+            
+            <!-- Copy toàn bộ các section place-card của bạn xuống dưới -->
 
 
 
 <section class="place-card" id="buoitantrieu">
+    <div class="place-img">
     <img src="https://cautre.vn/wp-content/uploads/2021/11/word-image-27.png" alt="Bưởi Tân Triều">
+    </div>
     <div class="place-content">
         <h2>Bưởi Tân Triều</h2>
         <p>
@@ -59,7 +87,9 @@
 </section>
 
 <section class="place-card" id="gaxoai">
+    <div class="place-img">
     <img src="https://th.bing.com/th/id/R.612b02bdc3f0535dea21972526c2174e?rik=0XPeqSu1XbWjjg&pid=ImgRaw&r=0" alt="Gà hấp bưởi">
+    </div>
     <div class="place-content">
         <h2>Gà hấp bưởi</h2>
         <p>
@@ -71,7 +101,9 @@
 </section>
 
 <section class="place-card" id="goisang">
+    <div class="place-img">
     <img src="https://th.bing.com/th/id/R.3df4188ba620732c799bca921d915761?rik=%2fJ%2bfveeTHrUR9A&pid=ImgRaw&r=0" alt="Gỏi cá sông La Ngà">
+    </div>
     <div class="place-content">
         <h2>Gỏi cá sông La Ngà</h2>
         <p>
@@ -83,7 +115,9 @@
 </section>
 
 <section class="place-card" id="lacanh">
+    <div class="place-img">
     <img src="https://inhat.vn/wp-content/uploads/2020/08/L%E1%BA%A9u-l%C3%A1-kh%E1%BB%95-qua.jpg" alt="Lẩu lá khổ qua rừng">
+    </div>
     <div class="place-content">
         <h2>Lẩu lá khổ qua rừng</h2>
         <p>
@@ -94,7 +128,9 @@
 </section>
 
 <section class="place-card" id="nemxuong">
+    <div class="place-img">
     <img src="https://tse2.mm.bing.net/th/id/OIP.Wp0H6paLWi8BdCbqIvkXHAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Nem nướng Long Khánh">
+    </div>
     <div class="place-content">
         <h2>Nem nướng Long Khánh</h2>
         <p>
@@ -106,7 +142,9 @@
 </section>
 
 <section class="place-card" id="banhxeo">
+    <div class="place-img">
     <img src="https://tse3.mm.bing.net/th/id/OIP.4pmgiNtEs6ECJ9xYMPKFNwHaE8?pid=ImgDet&w=474&h=316&rs=1&o=7&rm=3" alt="Bánh xèo rau rừng">
+    </div>
     <div class="place-content">
         <h2>Bánh xèo rau rừng</h2>
         <p>
@@ -117,7 +155,9 @@
 </section>
 
 <section class="place-card" id="chaca">
+    <div class="place-img">
     <img src="https://tse2.mm.bing.net/th/id/OIP.YltJdztvsnRtDZny3w8jngHaGW?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chả cá La Ngà">
+    </div>
     <div class="place-content">
         <h2>Chả cá La Ngà</h2>
         <p>
@@ -129,7 +169,9 @@
 </section>
 
 <section class="place-card" id="canhchua">
+    <div class="place-img">
     <img src="https://th.bing.com/th/id/R.7a54c7bbb11adc1cc226b038e43c5db0?rik=n2jNCyoA4h3T0w&pid=ImgRaw&r=0" alt="Canh chua cá lăng">
+    </div>
     <div class="place-content">
         <h2>Canh chua cá lăng</h2>
         <p>
@@ -141,7 +183,9 @@
 </section>
 
 <section class="place-card" id="mitto">
+    <div class="place-img">
     <img src="https://navifruit.com.vn/wp-content/uploads/2022/07/mit-to-nu-4-1.jpg" alt="Mít tố Tân Phú">
+    </div>
     <div class="place-content">
         <h2>Mít tố Tân Phú</h2>
         <p>
@@ -153,7 +197,9 @@
 </section>
 
 <section class="place-card" id="comruou">
+    <div class="place-img">
     <img src="https://tse2.mm.bing.net/th/id/OIP.8Rv8asP7VoHmOsFvZ1JAgwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cơm rượu Tân Triều">
+    </div>
     <div class="place-content">
         <h2>Cơm rượu Tân Triều</h2>
         <p>
@@ -165,7 +211,10 @@
 </section>
 
 <section class="place-card" id="trau">
+    
+    <div class="place-img">
     <img src="https://tse4.mm.bing.net/th/id/OIP.aanRxzDjvu-TWrjh_MY46gAAAA?w=450&h=300&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Thịt trâu rừng nướng">
+    </div>
     <div class="place-content">
         <h2>Thịt trâu rừng nướng</h2>
         <p>
@@ -177,7 +226,10 @@
 </section>
 
 <section class="place-card" id="banhtrang">
+    
+    <div class="place-img">
     <img src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/162644/Originals/banh-trang-nuong-1.jpg" alt="Bánh tráng nướng Biên Hòa">
+    </div>
     <div class="place-content">
         <h2>Bánh tráng nướng Biên Hòa</h2>
         <p>
@@ -189,7 +241,10 @@
 </section>
 
 <section class="place-card" id="banhbeo">
+    
+    <div class="place-img">
     <img src="https://tse3.mm.bing.net/th/id/OIP.HW2WO4yUK3HZHAI1xjZItgHaEt?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Bánh bèo bì">
+    </div>
     <div class="place-content">
         <h2>Bánh bèo bì</h2>
         <p>
@@ -201,7 +256,10 @@
 </section>
 
 <section class="place-card" id="goiga">
+    
+    <div class="place-img">
     <img src="https://media.yeah1.com/files/nguyetthao/2023/05/13/goi-ga-mang-cut-che-bien-2-182230.jpg" alt="Gỏi gà măng cụt">
+    </div>
     <div class="place-content">
         <h2>Gỏi gà măng cụt</h2>
         <p>
@@ -212,15 +270,21 @@
 </section>
 
 <section class="place-card" id="ruoucan">
+    
+    <div class="place-img">
     <img src="https://th.bing.com/th/id/R.83c01ef5976eb4f28d757e22363b2bdb?rik=bIL%2f%2bb%2fJS%2f1E8A&pid=ImgRaw&r=0" alt="Rượu cần Đồng Nai">
+    </div>
     <div class="place-content">
         <h2>Rượu cần Đồng Nai</h2>
         <p>
             Rượu cần mang hương vị đặc trưng của đồng bào dân tộc,
             thường xuất hiện trong các lễ hội truyền thống.
         </p>
+        </div>
     </div>
 </section>
+
+        </div>
 
     </main>
 
@@ -288,6 +352,6 @@
     </div>
 </footer>
 
-    
+
 </body>
 </html>
